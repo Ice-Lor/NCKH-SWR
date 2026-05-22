@@ -1,29 +1,36 @@
-# WEEKLY REPORT
+# Weekly Report - Week 1
 
-**Nguyen Trong Toan - Leader - Week 1**
+## Group Information
 
-## Executive Summary
+- Class: SE2037
+- Group: 03
+- Leader: Nguyen Trong Toan
+- Members: Huynh Viet Phat, Pham Trong Nghia, Vu Tran Phuc Khang, Phan Bao Duy
 
-In this week, the core focus is setting up the repository, fork and clone it. Next is setup folder structure, create file and do the week 1 tasks (topic.proposal.md and week_01.md).
+## Tasks Completed This Week
 
-## Accomplishments
+| Member             | Task                              | Result    |
+| ------------------ | --------------------------------- | --------- |
+| Nguyen Trong Toan  | Setup and check infomation        | Completed |
+| Huynh Viet Phat    | Find 2 papers and AI models       | Completed |
+| Phan Bao Duy       | Find 3 papers                     | Completed |
+| Pham Trong Nghia   | Find 1 paper and evaluation plan  | Completed |
+| Vu Tran Phuc Khang | Draft and update topic infomation | Completed |
 
-- **[Fork and clone repository, add collaborators]:** done.
-- **[Setup folder structure]:** done.
-- **[Week 1 tasks]:** done.
+## Git Commits
 
-## In Progress / Pending
+| Commit ID            | Message                  | Author            |
+| -------------------- | ------------------------ | ----------------- |
+| toan22102006a-collab | topic: update topic info | Nguyen Trong Toan |
 
-| Tasks                         | Progress (%) | Deadline | Note |
-| :---------------------------- | :----------: | :------: | :--- |
-| Continue ongoing week 2 tasks |     30%      |   ...    | ...  |
+## Current Problems
 
-## Blockers & Support Needed
+- Tasks have not yet been assigned to team members for Week 2.
 
-- Blockers: have not done the division of work and task among team members for week 2.
-- Support Needed: .
+## Plan for Next Week
 
-## Next Week's Plan
+- Assigned tasks for team members and done Week 2 tasks.
 
-1. Done division of work and task among my team members for week 2.
-2. Done task for week 2.
+## Questions for Instructor
+
+- ...

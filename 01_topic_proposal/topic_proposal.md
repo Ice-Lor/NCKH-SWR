@@ -3,31 +3,31 @@
 ## 1. Group Information
 
 - Class: SE2037
-- Group: 3
+- Group: 03
 - Leader: Nguyen Trong Toan
 - Members: Huynh Viet Phat, Pham Trong Nghia, Vu Tran Phuc Khang, Phan Bao Duy
 
 ## 2. Proposed Title
 
-** English title: An AI System for Monitoring, Early Warning, and Academic Improvement in Personalized Student Learning Management. **
+**English title: An AI System for Monitoring, Early Warning, and Academic Improvement in Personalized Student Learning Management.**
 
-** Vietnamese title: Hệ thống trí tuệ nhân tạo để giám sát, đưa ra cảnh báo sớm, cải thiện và quản lí việc học của cá nhân sinh viên. **
+**Vietnamese title: Hệ thống trí tuệ nhân tạo để giám sát, đưa ra cảnh báo sớm, cải thiện và quản lí việc học của cá nhân sinh viên.**
 
 ## 3. Application Domain
 
-Application domain: Student Support/ Learning Management/ Smart Education.
+- Application domain: Student Support/ Learning Management/ Smart Education.
 
 ## 4. Problem Statement
 
-Problem statement: Firstly, School managers and teachers often find out that students are failing or dropping out too late - usually at the end of the semester when it already hard to fix. Secondly, when students miss classes then their learning is interrupted. Without a clear plan or warning, it will become very hard to catch up with class progression and they fall behind. Finally, many students fail because they do not have enough or the exact specific documents or materials in their course.
+- Problem statement: Firstly, School managers and teachers often find out that students are failing or dropping out too late - usually at the end of the semester when it already hard to fix. Secondly, when students miss classes then their learning is interrupted. Without a clear plan or warning, it will become very hard to catch up with class progression and they fall behind. Finally, many students fail because they do not have enough or the exact specific documents or materials in their course.
 
 ## 5. Motivation
 
-Why this problem is important: Student dropouts and course failures have negative impact on both university, school and students. For University and school, high failure or dropout rates decrease education quality and damage university or school reputation which leads to a decline in student enrollment and financial income. For students when failing or droping out will take a lot of money, time which very important at their age and it can damage their mental health, cause stress, depressive. Tradition school system often react after the damage is done. By use AI, we can predict, improve and solve this problem very soon and decrease the negative impact.
+- Why this problem is important: Student dropouts and course failures have negative impact on both university, school and students. For University and school, high failure or dropout rates decrease education quality and damage university or school reputation which leads to a decline in student enrollment and financial income. For students when failing or droping out will take a lot of money, time which very important at their age and it can damage their mental health, cause stress, depressive. Tradition school system often react after the damage is done. By use AI, we can predict, improve and solve this problem very soon and decrease the negative impact.
 
 ## 6. Target Users
 
-Target Users:
+- Target Users:
 
 1. School managers/ Academic departments: To monitor and manage students in the school.
 2. Teacher/ Advisors: See the students status and help, support them.
@@ -35,11 +35,11 @@ Target Users:
 
 ## 7. Proposed AI Model / Method
 
-Proposed AI Model/ Method: Random Forest, Retrieval-Augmented Generation (RAG), Large Language Models (LLM).
+- Proposed AI Model/ Method: Random Forest, Retrieval-Augmented Generation (RAG), Large Language Models (LLM).
 
 ## 8. System Features
 
-System features:
+- System features:
 
 1. Early Academic Warning: Warning as soon as when students have low grades, poor attendace, high dropout or fail risks.
 2. Generate Plan: Generate specific plan, roadmap and send for each students who have bad status, high risks.
@@ -47,7 +47,7 @@ System features:
 
 ## 9. Expected Contribution
 
-Expected contribution:
+- Expected contribution:
 
 1. Reduce the number of students who fail or drop in semester, year or in hard course.
 2. Make student understand more clearly about their study in this and future semesters.
@@ -55,7 +55,7 @@ Expected contribution:
 
 ## 10. Evaluation Plan
 
-Evaluation plan:
+- Evaluation plan:
 
 - Dataset: Historical of student academic records from the school protal, syllabus of all course in school and specific major roadmaps.
 - Baseline: Traditional rule-based triggers
