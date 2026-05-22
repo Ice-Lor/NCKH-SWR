@@ -108,5 +108,5 @@ Liệt kê ít nhất 5 bài báo liên quan.
 | 1 | Toss 'n' turn: smartphone as sleep and sleep quality detector | 2013 | CHI | https://dl.acm.org/doi/pdf/10.1145/2556288.2557220 |
 | 2 | Sleep quality prediction from wearable data using deep learning | 2016 | JMIR mHealth and uHealth | https://mhealth.jmir.org/2016/4/e125/ |
 | 3 | SensibleSleep: A Bayesian Model for Learning Sleep Patterns from Smartphone Events | 2017 | PLoS ONE | https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0169901&type=printable |
-| 4 | Unobtrusive sleep monitoring using smartphones | 2013 | PervasiveHealth | https://pac.cs.cornell.edu/pubs/Unobtrusive_Sleep_2013.pdf |
+| 4 | Unobtrusive sleep monitoring using smartphones | 2013 | PervasiveHealth | https://ieeexplore.ieee.org/document/6563918 |
 | 5 | Towards Circadian Computing: "Early to Bed and Early to Rise" Makes Some of Us Unhealthy and Sleep Deprived | 2014 | ACM UbiComp | https://dl.acm.org/doi/pdf/10.1145/2632048.2632100 |
