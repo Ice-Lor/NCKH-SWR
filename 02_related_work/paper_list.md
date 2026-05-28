@@ -4,7 +4,7 @@
 * **Paper 1:** AI-Driven Decision-Making System for Hiring Process
 * **Paper 2:** GraphRank Pro+: Advancing Talent Analytics Through Knowledge Graphs and Sentiment-Enhanced Skill Profiling
 * **Paper 3:** SMART-HIRING: AN EXPLAINABLE END-TO-END PIPELINE FOR CV INFORMATION EXTRACTION AND JOB MATCHING
-* **Paper 4:** RAgentic AI for Human Resources: LLM-Driven Candidate Assessment
+* **Paper 4:** Agentic AI for Human Resources: LLM-Driven Candidate Assessment
 * **Paper 5:** Fairness in AI-Driven Recruitment: Challenges, Metrics, Methods, and Future Directions
 
 ---
