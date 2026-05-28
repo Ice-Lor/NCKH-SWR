@@ -1,6 +1,6 @@
 # Literature Review Matrix
 
-### BẢNG TỔNG HỢP TÀI LIỆU THAM KHẢO (LITERATURE REVIEW SYNTHESIS)
+
 
 | Paper | Domain | AI Model / Method | Dataset | Evaluation Metrics | Main Contribution | Limitation | Relevance |
 |---|---|---|---|---|---|---|---|
