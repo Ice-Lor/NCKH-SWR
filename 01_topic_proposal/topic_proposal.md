@@ -87,3 +87,13 @@ Nhóm sẽ đánh giá hệ thống như thế nào?
 | 3 |Predictive models for student procrastination in online learning environments Using Machine Learning |2022|Education and Information Technologies (Springer)|https://doi.org/10.1007/s10639-022-11105-z |
 | 4 | Leveraging Large Language Models for Conversational Agents in Intelligent Tutoring Systems| 2024| Computers and Education: Artificial Intelligence (Elsevier)| https://doi.org/10.1016/j.caeai.2024.100215|
 | 5 | Designing conversational Agents for adaptive instructional support in business simulation gaming| 2023|ScienceDirect. |https://www.sciencedirect.com/science/article/pii/S2666920X2600038X |
+
+# 12. Research Questions
+
+### Main Research Question
+* **RQ:**  How can requirements be specified and validated for a study assistant system that helps students manage tasks, reminders, and study time?
+
+### Sub-questions
+* **RQ1:**  What requirements should be collected from students to understand their study planning habits, procrastination problems, and reminder preferences?
+* **RQ2:**  What functional requirements are needed for task management, study reminders, focus tracking, and simple motivational feedback?
+* **RQ3:** How can a prototype be used to validate whether students find the reminders, task planning, and progress tracking useful?
