@@ -3,10 +3,10 @@
 ## Citation
 
 - **Title:** Using Focus to Personalise Learning and Feedback in Software Engineering Education
-- **Authors:** David Bowes, Binyamin L. Green, Adriano L. I. Oliveira, et al.
+- **Authors:** Bansri Amish Modi, Andrew Cain, Guy Wood-Bradley, Jake Renzella
 - **Year:** 2023
 - **Source:** 2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)
-- **DOI/Link:** [https://doi.org/10.1109/ICSE-SEET58678.2023.00018](https://doi.org/10.1109/ICSE-SEET58678.2023.00018)
+- **DOI/Link:** [https://doi.org/10.1109/ICSE-SEET58685.2023.00033](https://doi.org/10.1109/ICSE-SEET58685.2023.00033)
 
 ## Problem
 
