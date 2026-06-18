@@ -2,133 +2,140 @@
 
 ## 1. Group Information
 
-- **Class:**SE2037
-- **Group:**04
-- **Leader:**   Nguyễn Hoàng Anh Khoa
-- **Members:**  Trần Anh Vinh
-                Phan Phúc Thịnh
-                Nguyễn Thị Quỳnh Trúc
-                Nguyễn Quang Trường
+- **Class:** SE2037
+- **Group:** 04
+- **Leader:** Nguyễn Hoàng Anh Khoa
+- **Members:** Trần Anh Vinh
+              Phan Phúc Thịnh
+              Nguyễn Thị Quỳnh Trúc
+              Nguyễn Quang Trường
 
 ---
 
 ## 2. Proposed Title
 
-- **English title:** A Lightweight AI-Powered Learning Management System for Personalized Feedback and Quiz Generation in Software Engineering Education.
-- **Vietnamese title:** Hệ Thống Quản Lí Giáo Dục dùng cho Cá nhân hóa Phản hồi và Xây dựng Quiz trong lĩnh vực giáo dục ngành Kĩ Thuật Phần Mềm 
+- **English title:** Requirements Engineering for a RAG-based LMS that Generates CLO-aligned Quizzes
 
 ---
 
-## 3. Application Domain
+## 3. Research Domain
 
-* Education Management
-* AI System Analysis
+- Software Requirements Engineering
 
 ---
 
 ## 4. Problem Statement
 
-Trong môi trường giáo dục đại học, đặc biệt ở các môn học kỹ thuật phần mềm và công nghệ thông tin, giảng viên thường phải xử lý nhiều công việc lặp lại trong quá trình quản lý học tập như:
+In higher education, especially in software engineering and IT courses, instructors often face repetitive tasks in learning management, such as:
 
-* Tạo quiz và câu hỏi luyện tập.
-* Phản hồi bài làm của sinh viên.
-* Theo dõi tiến độ học tập.
-* Xác định sinh viên gặp khó khăn ở từng CLO.
-* Gợi ý tài liệu học tập phù hợp.
-* Hỗ trợ sinh viên tự học ngoài giờ.
+* Creating quizzes and practice questions.
+* Providing feedback on student assignments.
+* Tracking learning progress.
+* Identifying students struggling with specific CLOs (Course Learning Outcomes).
+* Recommending appropriate learning materials.
+* Supporting students' self-study outside classroom hours.
 
-Trong các hệ thống LMS truyền thống, phần lớn các công việc trên vẫn phụ thuộc nhiều vào thao tác thủ công của giảng viên.
+In traditional LMS (Learning Management Systems), most of these tasks heavily rely on manual efforts by instructors. This leads to several challenges:
 
-Điều này dẫn đến nhiều vấn đề:
+* High workload and time consumed in creating learning content.
+* Difficulty in personalizing learning for each student.
+* Delayed feedback for students.
+* Hard to track specific weaknesses of learners.
+* Chatbots or support systems often reply generally and lack course context.
+* AI-generated content may not align with the syllabus or CLOs.
 
-* Tốn thời gian tạo nội dung học tập.
-* Khó cá nhân hóa việc học cho từng sinh viên.
-* Sinh viên nhận phản hồi chậm.
-* Khó theo dõi chính xác điểm yếu của từng người học.
-* Chatbot hoặc hệ thống hỗ trợ hiện tại thường trả lời chung chung hoặc thiếu context của môn học.
-* Nội dung AI sinh ra có thể không bám sát syllabus hoặc CLO.
+Meanwhile, Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) are capable of generating questions, creating learning feedback, magnifying materials, and personalizing content. However, integrating these AI models into an LMS in a course-aware manner and validating its real-world effectiveness remains limited. 
 
-Trong khi đó, các Large Language Models (LLMs) và Retrieval-Augmented Generation (RAG) hiện nay có khả năng:
-
-* Sinh câu hỏi.
-* Tạo phản hồi học tập.
-* Tóm tắt tài liệu.
-* Hỗ trợ hỏi đáp.
-* Cá nhân hóa nội dung.
-
-Tuy nhiên, việc tích hợp các mô hình AI này vào LMS theo hướng có ngữ cảnh học tập (course-aware) và đánh giá được hiệu quả thực tế vẫn còn hạn chế.
-
-Do đó, nhóm đề xuất xây dựng:
-
-> A Lightweight AI-Powered Learning Management System for Personalized Feedback and Quiz Generation in Software Engineering Education.
-
-Hệ thống tập trung tích hợp:
-
-* LLM.
-* RAG.
-* Embedding-based retrieval.
-* CLO-aware quiz generation.
-* Personalized learning feedback.
+Therefore, this study proposes a requirements engineering framework for a RAG-based LMS that generates CLO-aligned quizzes to save instructors' time and personalize student learning.
 
 ---
 
 ## 5. Motivation
 
-Sự phát triển nhanh của Generative AI mở ra khả năng ứng dụng mạnh mẽ trong giáo dục đại học.
+The rapid development of Generative AI opens up opportunities in higher education. However, current systems have limitations:
 
-Tuy nhiên, nhiều hệ thống hiện tại vẫn gặp các hạn chế:
+* They do not integrate AI directly into the learning workflow.
+* Rely on simple chatbots without educational grounding.
+* Lack alignment with CLOs or syllabus.
+* Do not support personalized learning pathways.
+* Do not evaluate AI usefulness and pedagogical impact in real classes.
 
-* Chưa tích hợp AI trực tiếp vào workflow học tập.
-* Chỉ dùng chatbot đơn giản.
-* Không gắn với CLO hoặc syllabus.
-* Không hỗ trợ cá nhân hóa học tập.
-* Không đánh giá được mức độ hữu ích của AI trong môi trường thật.
-
-Trong các môn Software Engineering, lượng nội dung lớn cùng với số lượng sinh viên đông khiến giảng viên gặp khó khăn khi:
-
-* Sinh quiz thường xuyên.
-* Phản hồi chi tiết cho từng sinh viên.
-* Theo dõi learning outcome.
-* Gợi ý nội dung học tập phù hợp.
-
-Một AI-powered LMS có khả năng:
-
-* Sinh quiz theo từng topic.
-* Tạo feedback cá nhân hóa.
-* Truy xuất nội dung môn học bằng RAG.
-* Theo dõi tiến độ học tập.
-* Hỗ trợ hỏi đáp theo syllabus.
-
-Hệ thống này có thể giúp:
-
-* Giảm workload cho giảng viên.
-* Tăng tốc độ phản hồi.
-* Tăng mức độ tương tác học tập.
-* Cải thiện khả năng tự học của sinh viên.
-* Tăng khả năng cá nhân hóa học tập.
+In Software Engineering courses, the vast content and large student cohorts make it difficult for instructors to generate quizzes regularly, provide detailed feedback, and track learning outcomes. A RAG-based LMS can retrieve course content, generate quizzes per topic, and provide personalized feedback, which helps reduce instructor workload, speed up feedback, and improve student self-study.
 
 ---
 
-## 6. Target Context
+## 6. Target Users
 
-
-
----
-## 7. Preliminary Research Questions
-
-Main RQ: To what extent can a lightweight AI-powered Learning Management System effectively support automated quiz generation and personalized feedback in software engineering education?
-
-RQ1: How can Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) be effectively integrated to automatically generate quizzes that align with specific Course Learning Outcomes (CLOs)?	
-
-RQ2: How does the quality of quizzes and study materials generated by a RAG-based LMS compare to a standard LLM-only approach in terms of relevance, faithfulness, and alignment with CLOs?	
-
-RQ3: To what extent can the system accurately classify student performance and provide appropriate personalized feedback along with automated learning material recommendations?	
-
-RQ4: How much can the proposed system reduce instructors’ manual workload in quiz creation and feedback while maintaining high student satisfaction?
+| User Role | Description |
+|---|---|
+| Student | Take quizzes, ask questions, view feedback, self-study |
+| Instructor | Manage courses, upload materials, generate quizzes, track progress |
+| Admin | Manage system and system data |
 
 ---
 
-## 8. Related Papers (Preliminary)
+## 7. Proposed AI Model / Method
+
+- LLM & Retrieval-Augmented Generation (RAG)
+
+---
+
+## 8. System Features
+
+### Student Features
+
+* Login and learning management dashboard.
+* Take AI-generated quizzes.
+* View personalized, explanatory feedback on quiz attempts.
+* Chat with AI learning assistant.
+* View learning progress and CLO achievements.
+* Receive study recommendations.
+
+---
+
+### Instructor Features
+
+* Course management panel.
+* Upload course materials (syllabus, slides, textbooks).
+* Trigger automated quiz generation.
+* Monitor CLO achievement analytics.
+* View learning analytics dashboard.
+* Manage and override AI-generated feedback.
+
+---
+
+### AI Features
+
+* Quiz generation based on documents.
+* Personalized explanatory feedback generation.
+* RAG-based learning assistant.
+* CLO-aware recommendations.
+
+---
+
+## 9. Expected Contribution
+
+* **A working prototype of a RAG-based LMS** integrating LLMs to help instructors upload learning materials, automatically generate CLO-aligned multiple-choice questions, and allow review/edit.
+* **A detailed Software Requirements Specification (SRS)** for educational RAG features.
+* **An empirical report** comparing question generation quality between RAG-LMS and a standard LLM-only model.
+
+---
+
+## 10. Evaluation Plan
+
+* **Dataset:** Slides, textbooks, and learning materials of Software Engineering courses (e.g., Software Requirements, Software Architecture).
+* **Baseline:**
+  1. *Manual:* Traditional manual quiz creation by instructors.
+  2. *LLM-only:* Quiz generation directly using LLM without RAG.
+* **Metrics:**
+  1. *Faithfulness:* Measuring if the generated questions contain hallucinations or ungrounded knowledge.
+  2. *Answer Relevance:* Measuring the logical consistency between the question and the correct answer.
+  3. *CLO Alignment Rate:* The percentage of questions accurately evaluating the selected CLO.
+* **User/Expert Evaluation:** Structured surveys from 2-3 course instructors (Expert Rating) and empirical tests with 15-20 students.
+
+---
+
+## 11. Related Papers
 
 | No | Title | Year | Source | Link / DOI |
 |----|-------|------|--------|------------|
