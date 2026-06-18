@@ -1,4 +1,4 @@
-# Weekly Report - Week 03
+# Weekly Report - Week 04
 
 ## Group Information
 
@@ -14,8 +14,7 @@
 
 | Member | Task | Result |
 |---|---|---|
-| Nguyễn Quang Trường | Tóm tắt paper 1-3 | Hoàn thành |
-| Trần Anh Vinh | Tóm tắt paper 4-5 | Hoàn thành |
+| Phan Phúc Thịnh | Tạo literature review matrix | Hoàn thành |
 
 ## Git Commits
 
@@ -24,12 +23,12 @@
 
 ## Current Problems
 
-- Không giải quyết được cách commit, nhóm quyết định sẽ soạn nội dung để commit vào tuần cuối cùng vì việc commit cho các thành viên có vấn đề.
+- Chưa hoàn thành các research gaps.
 
 ## Plan for Next Week
 
-- Viết literature review matrix.
-- Viết research questions và research gaps.
+- Hoàn thiện các research gaps.
+- Chuẩn bị draft abstract.
 
 ## Questions for Instructor
 
